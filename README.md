@@ -4,12 +4,6 @@ Companion Animal Rights Protection (CARP) is a non-governmental, non-profit orga
 
 伴侣动物权益保护是一家致力于保护猫狗等伴侣动物权益的非政府、非营利组织。我们坚信，作为人类最亲密的伙伴和宠物，猫狗应该享有尊严、尊重和适当的照顾。我们的使命是通过教育、倡导和实际行动，为猫狗争取更好的生活质量，并推动社会对动物权益的关注和保护
 
-### Project | 项目
-
-CARP's official WebApp project, using carPHP MVC Framework
-
-官方网站项目，使用了carPHP框架
-
 ## Usage | 部署
   
 1, Download __Xampp__ (or Lamp if you are using Linux)
@@ -25,14 +19,22 @@ CARP's official WebApp project, using carPHP MVC Framework
 git https://github.com/Yukikaze924/CARP.git
 ```
 
-#### Contributing | 贡献
+<br><br><br><br>
+
+### Project | 项目
+
+CARP's official WebApp project, using carPHP MVC Framework
+
+官方网站项目，使用了carPHP框架
+
+### Contributing | 贡献
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 我们欢迎PR。重大决定请先在issue里讨论，谢谢。
 
-#### Join Us | 加入我们
+### Join Us | 加入我们
 
 * [Telegram](https://t.me/carporg)
 
