@@ -81,7 +81,7 @@ to discuss what you would like to change.
 
 <br><br>
 
-## License
+## License | 许可证
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
