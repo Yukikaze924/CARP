@@ -71,7 +71,13 @@ to discuss what you would like to change.
 <br><br>
 
 ## Thanks to | 致谢
-_みやざきしゅうご_, _K线教主_, _jacky_124_, _advocate_ani_rights_, _Craint0829_, _asvhkryu_, 匿名群友 x14 ......
+ _jacky_124_, 
+ _K线教主_, 
+ _みやざきしゅうご_, 
+ _advocate_ani_rights_, 
+ _Craint0829_, 
+ _asvhkryu_, 
+ _匿名群友_ x14 ......
 
 <br><br>
 
