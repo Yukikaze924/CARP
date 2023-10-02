@@ -25,7 +25,7 @@ CARP's official WebApp project, using our own carPHP MVC Framework
 * [![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)](https://www.apple.com/safari/)
 
 > [!WARNING]
-> IE has many problem with loading our stylesheet (e.g. bootstrap) , don't use this outdated old guy!
+> _IE has many problem with loading our stylesheet (e.g. bootstrap) , don't use this outdated old guy!_
 
 #### 其他相关
 * ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
