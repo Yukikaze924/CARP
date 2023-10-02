@@ -11,7 +11,6 @@ CARP's official WebApp project, using carPHP MVC Framework
 官方网站项目，使用了carPHP框架
 
 ## Usage | 部署
-<pre>
   
 1, Download Xampp (or Lamp if you are using Linux)
 
@@ -25,7 +24,6 @@ CARP's official WebApp project, using carPHP MVC Framework
 ```git
 git https://github.com/Yukikaze924/CARP.git
 ```
-</pre>
 
 ### Contributing | 贡献
 
