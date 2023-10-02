@@ -69,7 +69,7 @@ to discuss what you would like to change.
 我们欢迎PR。重大决定请先在issue里讨论，谢谢。
 
 #### 致谢 | Thanks to
-_asvhkryu_, _みやざきしゅうご_, _K线教主_, _jacky_124_, _advocate_ani_rights_, _Craint0829_
+_みやざきしゅうご_, _K线教主_, _jacky_124_, _advocate_ani_rights_, _Craint0829_, _asvhkryu_, 匿名群友 x14 ......
 
 <br><br>
 ## License
