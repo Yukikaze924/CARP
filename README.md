@@ -27,6 +27,8 @@ C:\..\path\to\CARP
 ```
 
 6, replace all constants' value with your own value, e.g. Database address, username, password etc.
+> ![WARNING]
+> Do not edit the constants' Key/Name unless you know what it does in this Project
 
 <br><br>
 
