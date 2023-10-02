@@ -19,7 +19,7 @@ to discuss what you would like to change.
 
 ### Join Us | 加入我们
 
-[Telegram](https://t.me/carporg)
+* [Telegram](https://t.me/carporg)
 
 ## License
 
