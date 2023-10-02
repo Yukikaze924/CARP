@@ -68,4 +68,4 @@ Companion Animal Rights Protection (CARP) is a non-governmental, non-profit orga
 ![cute animals](https://raw.githubusercontent.com/Yukikaze924/CARP/main/img/bg_image.jpg)
 
 ## Join Us | 加入我们
-* [Telegram](https://t.me/carporg) ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+* [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/carporg)
