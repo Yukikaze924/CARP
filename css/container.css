@@ -1,0 +1,16 @@
+.container-full{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}

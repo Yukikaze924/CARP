@@ -1,0 +1,15 @@
+body{
+    font-family: system-ui;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}

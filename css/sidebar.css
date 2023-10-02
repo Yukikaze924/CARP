@@ -1,0 +1,34 @@
+#sidebar{
+  width: 324px;
+  top: 90px;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+}
+@media(max-width: 769px){
+  #sidebar{
+    margin-top: 70px;
+  }
+  .btn-book-a-table {
+    display: none;
+  }
+}
+#sidebar aside {
+  width: 324px;
+  height: calc(98vh - 70px);
+  background-color: #fff;
+}
+
+
+.header .container .logo img {
+  margin-right: 32px !important;
+  transition: 0.3s all;
+}
+.header .container .logo img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#offcanvasWithBothOptions .dropdown  a {
+  letter-spacing: 1px;
+}
