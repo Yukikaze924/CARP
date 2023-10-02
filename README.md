@@ -1,8 +1,8 @@
 ## Project | 项目
 
-CARP's official WebApp project, using carPHP MVC Framework
+CARP's official WebApp project, using our own carPHP MVC Framework
 
-官方网站项目，使用了carPHP框架
+官方网站项目，使用了我们自己的carPHP框架
 
 #### 技术栈
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
