@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^home$ index.php/HomeController [L]
+
+RewriteRule ^about$ index.php/AboutController [L]
+
+RewriteRule ^contact$ index.php/ContactController [L]
+
+RewriteRule ^login$ index.php/LoginController [L]
+
+RewriteRule ^register$ index.php/RegisterController [L]

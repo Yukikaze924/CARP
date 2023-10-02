@@ -1,0 +1,445 @@
+https://i.imgur.com/G1pXs7D.jpg
+
+
+0x2D947fA986EeDEa59c5D960506A5Eb5Cb0E00312
+
+
+
+                <h2 class="display-7 fw-bold" style="margin-top: 5rem;">积极推动动物保护实践</h2>
+                <p class="lead" style="margin-top: 2rem;">我们与各种动物保护组织、收容所和志愿者团体合作，提供救助和支持，帮助流浪动物找到温暖的家庭。我们倡导人们对伴侣动物进行适当的抚养和照顾，包括提供良好的饮食、医疗保健和适度的运动。我们也关注动物在娱乐、实验和商业领域的权益，力求改善相关行业的动物保护标准。</p>
+
+
+
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, odit? </figcaption>
+
+
+
+                <img width="24px" height="24px" src="https://yukikaze924.github.io/assets/img/link-symbol.svg" alt="更多信息">
+
+
+                <div class="d-md-flex post-entry-2 small-img">
+              <a href="single-post.html" class="me-4 thumbnail">
+                <img src="assets/img/post-landscape-1.jpg" alt="" class="img-fluid">
+              </a>
+              <div>
+                <div class="post-meta"><span class="date">Business</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                <h3><a href="single-post.html">17 Pictures of Medium Length Hair in Layers That Will Inspire Your New Haircut</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas.</p>
+                <div class="d-flex align-items-center author">
+                  <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
+                  <div class="name">
+                    <h3 class="m-0 p-0">Wade Warren</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="comment d-flex mb-4">
+              <div class="flex-shrink-0">
+                <div class="avatar avatar-sm rounded-circle">
+                  <img class="avatar-img" src="assets/img/person-5.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-2 ms-sm-3">
+                <div class="comment-meta d-flex align-items-baseline">
+                  <h6 class="me-2">Jordan Singer</h6>
+                  <span class="text-muted">2d</span>
+                </div>
+                <div class="comment-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non minima ipsum at amet doloremque qui magni, placeat deserunt pariatur itaque laudantium impedit aliquam eligendi repellendus excepturi quibusdam nobis esse accusantium.
+                </div>
+
+                <div class="comment-replies bg-light p-3 mt-3 rounded">
+                  <h6 class="comment-replies-title mb-4 text-muted text-uppercase">2 replies</h6>
+
+                  <div class="reply d-flex mb-4">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-sm rounded-circle">
+                        <img class="avatar-img" src="assets/img/person-4.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-2 ms-sm-3">
+                      <div class="reply-meta d-flex align-items-baseline">
+                        <h6 class="mb-0 me-2">Brandon Smith</h6>
+                        <span class="text-muted">2d</span>
+                      </div>
+                      <div class="reply-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reply d-flex">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-sm rounded-circle">
+                        <img class="avatar-img" src="assets/img/person-3.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-2 ms-sm-3">
+                      <div class="reply-meta d-flex align-items-baseline">
+                        <h6 class="mb-0 me-2">James Parsons</h6>
+                        <span class="text-muted">1d</span>
+                      </div>
+                      <div class="reply-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore sed eos sapiente, praesentium.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <img src="data:image/png;base64,<?php echo $base64Avatar?>" class="img-radius" alt="User-Profile-Image" id="avatar">
+            #moreinfo a{
+              transition: all 0.4s;
+            }
+            #moreinfo a:hover{
+              opacity: 0.6;
+            }
+    
+
+
+
+            <?php
+            if(empty($_COOKIE['account'])){
+              echo <<<HTML
+                <div class="async-btn-div">
+                    <button class="btn-sm btn-warning text-dark" id="async-btn"><small>同步Web钱包</small></button>
+                </div>
+              HTML;
+            } else{
+              echo "<div></div>";
+            }
+            ?>
+
+
+
+
+            <!--侧边菜单栏-->
+            <div class="collapse fixed-top" id="sidebar">
+              <aside class="d-flex flex-column p-3">
+                  <ul class="nav nav-pills flex-column mb-auto">
+                      <li class="nav-item">
+                      <a href="index.php" class="nav-link active" aria-current="page">
+                          <i class="bi bi-house"></i>
+                          主页
+                      </a>
+                      </li>
+                      <li>
+                      <a href="about.php" class="nav-link link-dark">
+                          <i class="bi bi-info-circle"></i>
+                          关于
+                      </a>
+                      </li>
+                      <li>
+                      <a href="contact.php" class="nav-link link-dark">
+                          <i class="bi bi-phone"></i>
+                          联系我们
+                      </a>
+                      </li>
+                      <li>
+                        <button class="btn btn-toggle align-items-center rounded collapsed nav-link link-dark" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                          <i class="bi-envelope-open"></i>
+                          消息
+                        </button>
+                        <div class="collapse" id="orders-collapse">
+                          <div class="list-group list-group-flush border-top border-bottom scrollarea">
+  
+                            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                              <div class="d-flex w-100 align-items-center justify-content-between">
+                                <strong class="mb-1">List group item heading</strong>
+                                <small class="text-muted">Tues</small>
+                              </div>
+                              <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.</div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                              <div class="d-flex w-100 align-items-center justify-content-between">
+                                <strong class="mb-1">List group item heading</strong>
+                                <small class="text-muted">Tues</small>
+                              </div>
+                              <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.</div>
+                            </a>
+  
+                          </div>
+                        </div>
+                      </li>
+                  </ul>
+  
+                  <hr>
+                  <div class="dropdown">
+                      <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="<?php echo $avatarUrl ?>" alt="" width="32" height="32" class="rounded-circle me-2">
+                          <strong id="account">账号: <?php echo $account ?></strong>
+                      </a>
+                      <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                          <li><a class="dropdown-item" href="Page/rotation_chart/index.html">see also...</a></li>
+                          <li><a class="dropdown-item glightbox" href="Page/setting/index.php?account=<?php echo $account ?>&nickname=<?php echo $nickname ?>">设置</a></li>
+                          <li><button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#profile-modal">余额</button></li>
+                          <li><a class="dropdown-item glightbox" href="page/account/index.php">账号详情</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li>
+                            <?php
+                              if(empty($_COOKIE['account'])){
+                                echo "<a class='dropdown-item' href='page/log/index.html'>登录 / 注册</a>";
+                              } else{
+                                echo "<a class='dropdown-item' onclick='logOut(\"account\"); logOut(\"nickname\"); logOut(\"number\"); logOut(\"address\"); logOut(\"id\"); logOut(\"avatar\"); location.reload();'>退出登录</a>";
+                              }
+                            ?>  
+                          </li>
+                      </ul>
+                  </div>
+              </aside>
+              </div>
+
+
+
+
+              <p data-aos="fade-up"><a class="btn btn-primary btn-lg" href="about.php" role="button">进一步了解 &raquo;</a></p>
+
+
+
+
+
+          <!--主展示框区域
+          <div class="jumbotron">
+            <div class="container">
+              <h1 class="display-3" data-aos="fade-up">伴侣动物权益保护</h1>
+              <p data-aos="fade-up">伴侣动物权益保护是一家致力于保护猫狗等伴侣动物权益的非营利组织。我们坚信，作为人类最亲密的伙伴和宠物，猫狗应该享有尊严、尊重和适当的照顾。我们的使命是通过教育、倡导和实际行动，为猫狗争取更好的生活质量，并推动社会对动物权益的关注和保护......</p>
+              <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
+            </div>
+          </div>-->
+
+          <!--<header class="d-flex fixed-top bg-light">
+              <div class="menu">
+                  <button id="sidebartogglebtn" class="togglemenu bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar"><img width="26" height="26" src="img/sidebarmenu.svg" alt="menu--v6"/></button>
+              </div>
+              <div class="logo-div">
+                  <h1 class="logo"><a href="index.php">C A R P</a></h1>
+              </div>
+          </header>-->
+
+
+
+
+
+
+
+
+Protection des droits des animaux de compagnie
+
+
+
+
+
+
+
+
+
+
+/* Header样式 */
+header {
+  width: 100vw;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo-div{
+  width: 200px;
+  height: 100%;
+  padding-top: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo a{
+  width: 105px;
+  height: 38px;
+  margin-left: 0.402rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  letter-spacing: -0.3rem;
+  transition: all 0.4s;
+}
+
+.logo a:hover{
+  color: #000;
+  opacity: 0.6;
+}
+
+.async-btn-div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+#async-btn{
+  width: 92px;
+  height: 30px;
+  padding: 0;
+}
+
+#async-btn small{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="ftco-section">
+  <div class="container">
+
+      <div class="row justify-content-center" id="logged">
+          <div class="col-md-6 text-center mb-5">
+              <h2 class="heading-section">联系我们</h2>
+          </div>
+      </div>
+
+      <div class="row justify-content-center" id="not-logged">
+          <div class="col-md-6 text-center mb-5">
+              <h2 class="heading-section">请先登录您的账号，或者<a href="page/log/index.html">前往注册</a></h2>
+          </div>
+      </div>
+
+      <div class="row justify-content-center">
+          <div class="col-md-12">
+              <div class="wrapper">
+                  <div class="row no-gutters mb-5">
+                      <div class="col-md-7">
+                          <div class="contact-wrap w-100 p-md-5 p-4">
+                              <h3 class="mb-4">填写您的信息</h3>
+                              <div id="form-message-warning" class="mb-4"></div> 
+                        <div id="form-message-success" class="mb-4">
+                      您的消息已发送，我们将尽快给予答复！
+                        </div>
+                              <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <div class="form-group">
+                                              <label class="label" for="name">姓名 / 昵称</label>
+                                              <input type="text" class="form-control" name="name" id="name" placeholder="如何称呼您" value="<?php echo $nickname ?>">
+                                          </div>
+                                      </div>
+                                      <div class="col-md-6"> 
+                                          <div class="form-group">
+                                              <label class="label" for="email">邮箱地址</label>
+                                              <input type="email" class="form-control" name="email" id="email" placeholder="联系方式" value="<?php echo $account ?>">
+                                          </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                          <div class="form-group">
+                                              <label class="label" for="subject">主题</label>
+                                              <input type="text" class="form-control" name="subject" id="subject" placeholder="写下您的主题">
+                                          </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                          <div class="form-group">
+                                              <label class="label" for="#">消息</label>
+                                              <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="写下您想对我们说的"></textarea>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                          <div class="form-group">
+                                              <input type="submit" value="Send Message" class="btn btn-primary">
+                                              <div class="submitting"></div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                      <div class="col-md-5 d-flex align-items-stretch">
+                          <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10412.515219723065!2d-123.1226113!3d49.2739565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673d727d5a461%3A0xa8b3ddc256b64ebb!2sTHE%20ANIMAL%20WELFARE%20FOUNDATION%20OF%20CANADA!5e0!3m2!1sen!2shk!4v1691250666773!5m2!1sen!2shk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-3">
+                          <div class="dbox w-100 text-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-map-marker"></span>
+                      </div>
+                      <div class="text">
+                      <p><span>地址:</span> 643, 1231 Pacific Blvd Suite, Vancouver, BC, Canada</p>
+                    </div>
+                </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="dbox w-100 text-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text">
+                      <p><span>号码:</span> <a href="tel://1234567920">(+1) 604 206-0924</a></p>
+                    </div>
+                </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="dbox w-100 text-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text">
+                      <p><span>邮箱:</span> <a href="mailto:animalrightsmatter@carp.org">animalrightsmatter@carp.org</a></p>
+                    </div>
+                </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="dbox w-100 text-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-globe"></span>
+                      </div>
+                      <div class="text">
+                      <p><span>组织管理者</span> <br><a href="#">Benjamin Dogg</a></p>
+                    </div>
+                </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

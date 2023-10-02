@@ -1,0 +1,20 @@
+{
+    "name": "carp.org/carp",
+    "description": "This is the official website project of carp.org",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Model\\": "app/models/",
+            "App\\Controller\\": "app/controllers/",
+            "App\\Core\\": "app/core",
+            "App\\Api\\": "app/apis/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yukikaze",
+            "email": "Yukikaze924@gmail.com"
+        }
+    ]
+}
