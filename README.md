@@ -20,9 +20,10 @@ CARP's official WebApp project, using our own carPHP MVC Framework
 * [![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
 #### 测试环境
-* [![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
+* [![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) ✅✔
 * [![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://www.google.com/chrome/)
 * [![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)](https://www.apple.com/safari/)
+* [![IE](https://img.shields.io/badge/Internet%20Explorer-0076D6?style=for-the-badge&logo=Internet%20Explorer&logoColor=white)](/) ❌
 
 > [!WARNING]
 > _IE has many problem with loading our stylesheet (e.g. bootstrap) , don't use this outdated old guy!_
