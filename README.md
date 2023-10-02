@@ -15,7 +15,7 @@ CARP's official WebApp project, using carPHP MVC Framework
 git https://github.com/Yukikaze924/CARP.git
 ```
 
-<br><br><br>
+<br><br>
 
 ## Contributing | 贡献
 
@@ -28,7 +28,7 @@ to discuss what you would like to change.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-<br><br><br>
+<br><br>
 
 ## Companion Animal Rights Protection | 伴侣动物权益保护
 
