@@ -15,10 +15,13 @@ CARP's official WebApp project, using carPHP MVC Framework
   
 1, Download Xampp (or Lamp if you are using Linux)
 
+  
 2, Make sure you have MySql Env on your PC, and download something like HeidiSQL or Navicat as your SQL Visualization tool (we're using HeidiSQL cuz it's free :) )
 
+  
 3, Download our project to your PC
 
+  
 ```git
 git https://github.com/Yukikaze924/CARP.git
 ```
