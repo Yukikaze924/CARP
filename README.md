@@ -70,7 +70,7 @@ to discuss what you would like to change.
 
 <br><br>
 
-## 致谢 | Thanks to
+## Thanks to | 致谢
 _みやざきしゅうご_, _K线教主_, _jacky_124_, _advocate_ani_rights_, _Craint0829_, _asvhkryu_, 匿名群友 x14 ......
 
 <br><br>
