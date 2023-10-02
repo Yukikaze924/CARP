@@ -18,13 +18,15 @@ git https://github.com/Yukikaze924/CARP.git
 4, Set the path of our project root in xampp's conf file
 It should be like this
 ```
-C:...\path\to\CARP
+C:\..\path\to\CARP
 ```
 
 5, Edit the __constants.php__ in 
 ```
 /app/configs/constants.php
 ```
+
+6, replace all constants' value with your own value, e.g. Database address, username, password etc.
 
 <br><br>
 
