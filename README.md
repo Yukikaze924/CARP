@@ -77,7 +77,7 @@ to discuss what you would like to change.
  _advocate_ani_rights_, 
  _Craint0829_, 
  _asvhkryu_, 
- _匿名群友_ x14 ......
+ _匿名群友_
 
 <br><br>
 
