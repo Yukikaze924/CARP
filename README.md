@@ -17,6 +17,6 @@ to discuss what you would like to change.
 
 我们欢迎PR。重大决定请先在issue里讨论，谢谢。
 
-### License
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
