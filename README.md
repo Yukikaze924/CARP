@@ -3,6 +3,7 @@
 CARP's official WebApp project, using carPHP MVC Framework
 
 官方网站项目，使用了carPHP框架
+	![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 <br><br>
 ## Usage | 部署
   
