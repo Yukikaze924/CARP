@@ -19,6 +19,7 @@
 <link href="<?php echo BASE_URL ?>/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-S1zV7qy5U8t5aK9wVw7K+q4/1t3o9ZC8x6rymJr2WY7JyQyM1rKZt1yFhI2f1qQ2l2Jnuz3vOZB1hZCJ6vT+6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="shortcut icon" href="<?php echo BASE_URL ?>/icon.png" type="image/x-icon">
+<link rel="stylesheet" href="<?php echo BASE_URL ?>/assets/vendor/fonts">
 <!--Google Fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

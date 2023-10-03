@@ -14,9 +14,10 @@
         <li><a href="<?php echo HOME_URL ?>"><?php echo $lang['home'] ?></a></li>
         <li><a href="<?php echo ABOUT_URL ?>"><?php echo $lang['about'] ?></a></li>
         <li><a href="<?php echo CONTACT_URL ?>"><?php echo $lang['contact'] ?></a></li>
+
         <li class="dropdown"><a href="#"><span><?php echo $lang['more'] ?></span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
         <ul>
-            <li><a href="view.php?target=showcase&index=index.html">展览</a></li>
+            <li><a href="view.php?target=Exhibition&index=index.html">展览</a></li>
 
             <li><a href="view.php?target=ChatExport&index=messages.html">Telegram备份</a></li>
 
@@ -36,6 +37,7 @@
 
         </ul>
         </li>
+
     </ul>
     </nav><!-- .navbar -->
 

@@ -17,11 +17,6 @@
   font-family: Butler_Light;
 }
 
-a {
-  text-decoration: none !important;
-  color: #f1f2f3;
-}
-
 body {
   background-image: url(./asset/bg.jpg);
   background-attachment: fixed;
