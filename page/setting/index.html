@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--css stylesheets-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 3rd Party Lib&Frameworks -->
+    <!--bootstrap css/js, Jquery-->
+    <script src="../../js/JQuery/JQuery.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container rounded bg-white mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-4 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="../../img/profile.png"><span class="font-weight-bold mt-2" id="nickname">未登录</span><span class="text-black-50" id="account">请先登录你的账号</span><span> </span></div>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">设置</h4>
+                    </div>
+                    <form method="post" action="insertProfile.php" id="updateProfile">
+                        <input type="hidden" name="extraData" id="extraDataInput" value="">
+                        <div class="row mt-2">
+                            <div class="col-md-8"><label class="labels">昵称</label><input type="text" class="form-control" placeholder="输入你的姓名" name="nickname"></div>
+                            <div class="col-md-4"><label class="labels">年龄</label><input type="text" class="form-control" placeholder="" name="age"></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12"><label class="labels">手机号码</label><input type="text" class="form-control" placeholder="输入你的手机号码(可选)" value="" name="number"></div>
+                            <div class="col-md-12"><label class="labels">地址</label><input type="text" class="form-control" placeholder="输入你的地址(可选)" value="" name="address"></div>
+                            <div class="col-md-12"><label class="labels">邮政编码</label><input type="text" class="form-control" placeholder="输入你的邮政编码(可选)" value="" name="postcode"></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6"><label class="labels">国家</label><input type="text" class="form-control" placeholder="输入你所在的国家" name="country"></div>
+                            <div class="col-md-6"><label class="labels">州/省</label><input type="text" class="form-control" placeholder="输入你所在的州/省" name="region"></div>
+                        </div>
+                        <div class="mt-5 text-center"><button class="profile-button" type="submit">保存设置</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="../../js/Web3/metamask.web3.min.js"></script>
+    <script>
+        async function checkMetamaskConnection() {
+        // 检测 Metamask 插件是否存在
+        if (typeof window.ethereum !== 'undefined') {
+            try {
+            // 在这里可以执行其他操作，如调用合约或发送交易
+            web3.eth.getAccounts(function(error, accounts) {
+                var minAddress = accounts.toString();
+                let maxLength = 10;  // 定义最大显示长度
+                if (minAddress.length > maxLength) {
+                    var start = minAddress.substr(0, maxLength/2);
+                    var end = minAddress.substr(minAddress.length - maxLength/2);
+                    minAddress = start + '......' + end;
+                    document.getElementById("account").innerHTML=minAddress;
+                };
+
+                //xhr检测nickname value
+                var xhr = new XMLHttpRequest();
+                var url = "../../php/getUser.php";
+                xhr.open("POST", url, true);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                    var response = xhr.responseText;
+                    console.log(response);
+                    let data = response.replace(/[\[\]"]/g, '');
+                    document.getElementById("nickname").innerHTML=data;
+                    }
+                };
+                xhr.send("account=" + encodeURIComponent(accounts));
+            }
+            )
+            }
+            catch (error) {
+            // 用户拒绝连接或其他错误
+            console.log('Metamask 连接被拒绝或发生错误:', error);
+            }
+        };
+    };
+        // 在页面加载完成后调用检查函数
+        window.addEventListener("load", checkMetamaskConnection);
+
+        // 获取form元素的引用
+        var form = document.getElementById('updateProfile');
+
+        // 绑定submit事件和处理函数
+        form.addEventListener('submit', function(event) {
+            // 获取额外的数据
+            var extraData = web3.eth.accounts;
+
+            // 将额外的数据设置到隐藏的input元素中
+            document.getElementById('extraDataInput').value = extraData;
+        });
+    </script>
+
+</body>
+</html>
